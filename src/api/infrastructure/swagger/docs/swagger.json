@@ -1,0 +1,104 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "contact": {}
+    },
+    "paths": {
+        "/exercises": {
+            "post": {
+                "security": [
+                    {
+                        "ApiKeyAuth": []
+                    }
+                ],
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "exercise"
+                ],
+                "summary": "Create a new exercise",
+                "parameters": [
+                    {
+                        "description": "AddExercise an exercise",
+                        "name": "food",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/exercisedto.ExerciseRequest"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Created",
+                        "schema": {
+                            "$ref": "#/definitions/exercisedto.ExerciseResponse"
+                        }
+                    }
+                }
+            }
+        },
+        "/exercises/{id}": {
+            "get": {
+                "security": [
+                    {
+                        "ApiKeyAuth": []
+                    }
+                ],
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "exercise"
+                ],
+                "summary": "Find exercise by id",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "Exercise ID",
+                        "name": "id",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/exercisedto.ExerciseResponse"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "exercisedto.ExerciseRequest": {
+            "type": "object",
+            "properties": {
+                "muscular_group": {
+                    "type": "string",
+                    "example": "Chest"
+                },
+                "name": {
+                    "type": "string",
+                    "example": "Bench Press"
+                },
+                "reps": {
+                    "type": "integer",
+                    "example": 12
+                }
+            }
+        },
+        "exercisedto.ExerciseResponse": {
+            "type": "object"
+        }
+    }
+}

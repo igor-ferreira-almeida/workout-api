@@ -1,0 +1,64 @@
+definitions:
+  exercisedto.ExerciseRequest:
+    properties:
+      muscular_group:
+        example: Chest
+        type: string
+      name:
+        example: Bench Press
+        type: string
+      reps:
+        example: 12
+        type: integer
+    type: object
+  exercisedto.ExerciseResponse:
+    type: object
+info:
+  contact: {}
+paths:
+  /exercises:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: AddExercise an exercise
+        in: body
+        name: food
+        required: true
+        schema:
+          $ref: '#/definitions/exercisedto.ExerciseRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/exercisedto.ExerciseResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Create a new exercise
+      tags:
+      - exercise
+  /exercises/{id}:
+    get:
+      consumes:
+      - application/json
+      parameters:
+      - description: Exercise ID
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/exercisedto.ExerciseResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Find exercise by id
+      tags:
+      - exercise
+swagger: "2.0"
