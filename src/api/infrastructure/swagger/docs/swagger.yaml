@@ -1,7 +1,7 @@
 definitions:
-  exercisedto.ExerciseRequest:
+  request.ExerciseRequest:
     properties:
-      muscular_group:
+      muscle_group:
         example: Chest
         type: string
       name:
@@ -10,8 +10,27 @@ definitions:
       reps:
         example: 12
         type: integer
+      rest:
+        example: 60
+        type: integer
+      weight:
+        example: 20
+        type: integer
     type: object
-  exercisedto.ExerciseResponse:
+  response.ExerciseResponse:
+    properties:
+      id:
+        type: integer
+      muscular_group:
+        type: string
+      name:
+        type: string
+      reps:
+        type: integer
+      rest:
+        type: integer
+      weight:
+        type: integer
     type: object
 info:
   contact: {}
@@ -21,19 +40,19 @@ paths:
       consumes:
       - application/json
       parameters:
-      - description: AddExercise an exercise
+      - description: Add an exercise
         in: body
         name: food
         required: true
         schema:
-          $ref: '#/definitions/exercisedto.ExerciseRequest'
+          $ref: '#/definitions/request.ExerciseRequest'
       produces:
       - application/json
       responses:
         "201":
           description: Created
           schema:
-            $ref: '#/definitions/exercisedto.ExerciseResponse'
+            $ref: '#/definitions/response.ExerciseResponse'
       security:
       - ApiKeyAuth: []
       summary: Create a new exercise
@@ -55,7 +74,7 @@ paths:
         "200":
           description: OK
           schema:
-            $ref: '#/definitions/exercisedto.ExerciseResponse'
+            $ref: '#/definitions/response.ExerciseResponse'
       security:
       - ApiKeyAuth: []
       summary: Find exercise by id

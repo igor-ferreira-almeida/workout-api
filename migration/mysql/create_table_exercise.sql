@@ -1,7 +1,7 @@
-CREATE TABLE IF NOT EXISTS workoutdb.exercises (
+CREATE TABLE IF NOT EXISTS workoutdb.exercise (
     id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(75) NOT NULL,
     muscular_group VARCHAR(75) NOT NULL,
     reps INTEGER NOT NULL,
-    rest_time INTEGER NOT NULL
+    weight INTEGER NOT NULL
 ) ENGINE = InnoDB DEFAULT CHARSET = latin1;

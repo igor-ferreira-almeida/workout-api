@@ -47,7 +47,7 @@ var doc = `{
                         "in": "body",
                         "required": true,
                         "schema": {
-                            "$ref": "#/definitions/exercisedto.ExerciseRequest"
+                            "$ref": "#/definitions/request.ExerciseRequest"
                         }
                     }
                 ],
@@ -55,7 +55,7 @@ var doc = `{
                     "201": {
                         "description": "Created",
                         "schema": {
-                            "$ref": "#/definitions/exercisedto.ExerciseResponse"
+                            "$ref": "#/definitions/response.ExerciseResponse"
                         }
                     }
                 }
@@ -91,7 +91,7 @@ var doc = `{
                     "200": {
                         "description": "OK",
                         "schema": {
-                            "$ref": "#/definitions/exercisedto.ExerciseResponse"
+                            "$ref": "#/definitions/response.ExerciseResponse"
                         }
                     }
                 }
@@ -99,10 +99,10 @@ var doc = `{
         }
     },
     "definitions": {
-        "exercisedto.ExerciseRequest": {
+        "request.ExerciseRequest": {
             "type": "object",
             "properties": {
-                "muscular_group": {
+                "muscle_group": {
                     "type": "string",
                     "example": "Chest"
                 },
@@ -113,11 +113,39 @@ var doc = `{
                 "reps": {
                     "type": "integer",
                     "example": 12
+                },
+                "rest": {
+                    "type": "integer",
+                    "example": 60
+                },
+                "weight": {
+                    "type": "integer",
+                    "example": 20
                 }
             }
         },
-        "exercisedto.ExerciseResponse": {
-            "type": "object"
+        "response.ExerciseResponse": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "muscular_group": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "reps": {
+                    "type": "integer"
+                },
+                "rest": {
+                    "type": "integer"
+                },
+                "weight": {
+                    "type": "integer"
+                }
+            }
         }
     }
 }`
