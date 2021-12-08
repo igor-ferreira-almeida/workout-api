@@ -26,4 +26,5 @@ func mapRoutes(router *gin.Engine) {
 	url := ginSwagger.URL("http://localhost:9081/swagger/doc.json") // The url pointing to API definition
 	router.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler, url))
 	controller.MapExerciseRoutes(router)
+	controller.MapTrainingRoutes(router)
 }

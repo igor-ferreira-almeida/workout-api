@@ -17,15 +17,6 @@ func newServiceImpl() serviceImpl {
 	return serviceImpl{}
 }
 
-
-type Exercise struct {
-	ID          int64  `db:"id"`
-	Name        string `db:"name"`
-	MuscleGroup string `db:"muscle_group"`
-	Reps        int    `db:"reps"`
-	Weight      int    `db:"weight"`
-}
-
 func (service serviceImpl) Add(exercise exercisemd.Exercise) (exercisemd.Exercise, error) {
 	result, err := db.Connection.Exec(insertQuery, exercise.Name, exercise.MuscleGroup, exercise.Reps, exercise.Weight)
 

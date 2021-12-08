@@ -34,6 +34,6 @@ func (service serviceImpl) Add(exercise exercisemd.Exercise) (exercisemd.Exercis
 
 	return exercise, nil
 }
-func (service serviceImpl) Update(id int64, meal exercisemd.Exercise) (exercisemd.Exercise, error) {
+func (service serviceImpl) Update(id int64, exercise exercisemd.Exercise) (exercisemd.Exercise, error) {
 	return exercisemd.Exercise{}, nil
 }
