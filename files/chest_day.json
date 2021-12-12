@@ -1,0 +1,503 @@
+{
+  "muscle_groups": [
+    "Chest",
+    "Shoulders"
+  ],
+  "exercises": [
+    {
+      "name": "Incline Bench Press",
+      "muscle_group": "Chest",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 16,
+              "rest": 60,
+              "weight": 40
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 16,
+              "rest": 60,
+              "weight": 40
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 60
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 60
+            }
+          ]
+        },
+        {
+          "technique": "Drop Set",
+          "sets": [
+            {
+              "reps": 1,
+              "rest": 0,
+              "weight": 70
+            },
+            {
+              "reps": 1,
+              "rest": 0,
+              "weight": 80
+            },
+            {
+              "reps": 7,
+              "rest": 0,
+              "weight": 60
+            },
+            {
+              "reps": 12,
+              "rest": 0,
+              "weight": 40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Incline Dumbbell Fly",
+      "muscle_group": "Chest",
+      "executions": [
+        {
+          "technique": "Bi Set",
+          "sets": [
+            {
+              "reps": 6,
+              "rest": 60,
+              "weight": 64
+            },
+            {
+              "reps": 6,
+              "rest": 0,
+              "weight": 44
+            }
+          ]
+        },
+        {
+          "technique": "Bi Set",
+          "sets": [
+            {
+              "reps": 5,
+              "rest": 60,
+              "weight": 64
+            },
+            {
+              "reps": 5,
+              "rest": 0,
+              "weight": 44
+            }
+          ]
+        },
+        {
+          "technique": "Bi Set",
+          "sets": [
+            {
+              "reps": 4,
+              "rest": 60,
+              "weight": 64
+            },
+            {
+              "reps": 5,
+              "rest": 0,
+              "weight": 44
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 9,
+              "rest": 60,
+              "weight": 44
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Incline Cable fly",
+      "muscle_group": "Chest",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 14,
+              "rest": 60,
+              "weight": 40
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 12,
+              "rest": 60,
+              "weight": 40
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 13,
+              "rest": 60,
+              "weight": 40
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 8,
+              "rest": 60,
+              "weight": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fly Machine",
+      "muscle_group": "Chest",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 17,
+              "rest": 60,
+              "weight": 40
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 15,
+              "rest": 60,
+              "weight": 50
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 11,
+              "rest": 60,
+              "weight": 60
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cable Fly",
+      "muscle_group": "Chest",
+      "executions": [
+        {
+          "technique": "Bi Set",
+          "sets": [
+            {
+              "reps": 6,
+              "rest": 60,
+              "weight": 40
+            },
+            {
+              "reps": 12,
+              "rest": 60,
+              "weight": 40
+            }
+          ]
+        },
+        {
+          "technique": "Bi Set",
+          "sets": [
+            {
+              "reps": 6,
+              "rest": 60,
+              "weight": 40
+            },
+            {
+              "reps": 15,
+              "rest": 60,
+              "weight": 40
+            }
+          ]
+        },
+        {
+          "technique": "Bi Set",
+          "sets": [
+            {
+              "reps": 6,
+              "rest": 60,
+              "weight": 40
+            },
+            {
+              "reps": 12,
+              "rest": 60,
+              "weight": 40
+            }
+          ]
+        },
+        {
+          "technique": "Bi Set",
+          "sets": [
+            {
+              "reps": 6,
+              "rest": 60,
+              "weight": 40
+            },
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Military Press",
+      "muscle_group": "Shoulders",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 15,
+              "rest": 60,
+              "weight": 50
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 15,
+              "rest": 60,
+              "weight": 20
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 9,
+              "rest": 60,
+              "weight": 26
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 9,
+              "rest": 60,
+              "weight": 26
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Machine Press",
+      "muscle_group": "Shoulders",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 11,
+              "rest": 60,
+              "weight": 25
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 25
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 8,
+              "rest": 60,
+              "weight": 30
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 9,
+              "rest": 60,
+              "weight": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dumbbell Lateral Raise",
+      "muscle_group": "Shoulders",
+      "executions": [
+        {
+          "technique": "Bi Set",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 24
+            },
+            {
+              "reps": 10,
+              "rest": 0,
+              "weight": 12
+            }
+          ]
+        },
+        {
+          "technique": "Bi Set",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 24
+            },
+            {
+              "reps": 10,
+              "rest": 0,
+              "weight": 12
+            }
+          ]
+        },
+        {
+          "technique": "Bi Set",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 24
+            },
+            {
+              "reps": 10,
+              "rest": 0,
+              "weight": 12
+            }
+          ]
+        },
+        {
+          "technique": "Bi Set",
+          "sets": [
+            {
+              "reps": 9,
+              "rest": 60,
+              "weight": 24
+            },
+            {
+              "reps": 8,
+              "rest": 0,
+              "weight": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "One-Arm Cable Lateral Raise",
+      "muscle_group": "Shoulders",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 8,
+              "rest": 60,
+              "weight": 10
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 8,
+              "rest": 60,
+              "weight": 10
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 8,
+              "rest": 60,
+              "weight": 10
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 7,
+              "rest": 60,
+              "weight": 10
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "date": "2021-12-08T00:00:00-03:00"
+}

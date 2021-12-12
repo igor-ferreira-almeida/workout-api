@@ -26,11 +26,11 @@ func (service serviceImpl) Find(id int64) (trainingmd.Training, error) {
 	return exercise, nil
 }
 func (service serviceImpl) Add(training trainingmd.Training) (trainingmd.Training, error) {
-	training, err := service.serviceDB.Add(training)
+	//training, err := service.serviceDB.Add(training)
 
-	if err != nil {
-		fmt.Println("error")
-	}
+	//if err != nil {
+	//	fmt.Println("error")
+	//}
 
 	return training, nil
 }

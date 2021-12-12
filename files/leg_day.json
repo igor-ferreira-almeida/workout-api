@@ -1,0 +1,541 @@
+{
+  "muscle_groups": [
+    "Hamstrings",
+    "Glutes",
+    "Quadriceps",
+    "Calves"
+  ],
+  "exercises": [
+    {
+      "name": "Lying Leg Curls",
+      "muscle_group": "Hamstrings",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 30,
+              "rest": 60,
+              "weight": 20
+            }
+          ]
+        },
+        {
+          "technique": "Drop Set",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 40
+            },
+            {
+              "reps": 10,
+              "rest": 0,
+              "weight": 30
+            },
+            {
+              "reps": 10,
+              "rest": 0,
+              "weight": 20
+            }
+          ]
+        },
+        {
+          "technique": "Drop Set",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 50
+            },
+            {
+              "reps": 10,
+              "rest": 0,
+              "weight": 40
+            },
+            {
+              "reps": 10,
+              "rest": 0,
+              "weight": 30
+            }
+          ]
+        },
+        {
+          "technique": "Drop Set",
+          "sets": [
+            {
+              "reps": 9,
+              "rest": 60,
+              "weight": 50
+            },
+            {
+              "reps": 9,
+              "rest": 0,
+              "weight": 40
+            },
+            {
+              "reps": 9,
+              "rest": 0,
+              "weight": 30
+            }
+          ]
+        },
+        {
+          "technique": "Drop Set",
+          "sets": [
+            {
+              "reps": 8,
+              "rest": 60,
+              "weight": 50
+            },
+            {
+              "reps": 8,
+              "rest": 0,
+              "weight": 40
+            },
+            {
+              "reps": 9,
+              "rest": 0,
+              "weight": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Romanian Deadlift",
+      "muscle_group": "Hamstrings",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 11,
+              "rest": 60,
+              "weight": 40
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 40
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 40
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 12,
+              "rest": 60,
+              "weight": 40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Seated Leg Curls",
+      "muscle_group": "Hamstrings",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 18,
+              "rest": 60,
+              "weight": 20
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 13,
+              "rest": 60,
+              "weight": 25
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 15,
+              "rest": 60,
+              "weight": 25
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 9,
+              "rest": 60,
+              "weight": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twisting Hip Extension",
+      "muscle_group": "Glutes",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 11,
+              "rest": 60,
+              "weight": 12
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 13,
+              "rest": 60,
+              "weight": 12
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 20
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 13,
+              "rest": 60,
+              "weight": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sumo Deadlift",
+      "muscle_group": "Glutes",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 50
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 11,
+              "rest": 60,
+              "weight": 50
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 12,
+              "rest": 60,
+              "weight": 50
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bulgarian Split Squat",
+      "muscle_group": "Glutes",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 12,
+              "rest": 60,
+              "weight": 10
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 11,
+              "rest": 60,
+              "weight": 10
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 11,
+              "rest": 60,
+              "weight": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hip Adduction Machine",
+      "muscle_group": "Glutes",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 25,
+              "rest": 60,
+              "weight": 20
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 19,
+              "rest": 60,
+              "weight": 30
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 15,
+              "rest": 60,
+              "weight": 30
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 11,
+              "rest": 60,
+              "weight": 40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Standing Calf Press (Smith Machine)",
+      "muscle_group": "Calves",
+      "executions": [
+        {
+          "technique": "Bi Set",
+          "sets": [
+            {
+              "reps": 9,
+              "rest": 60,
+              "weight": 40
+            },
+            {
+              "reps": 10,
+              "rest": 0,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "technique": "Bi Set",
+          "sets": [
+            {
+              "reps": 8,
+              "rest": 60,
+              "weight": 40
+            },
+            {
+              "reps": 11,
+              "rest": 0,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "technique": "Bi Set",
+          "sets": [
+            {
+              "reps": 8,
+              "rest": 60,
+              "weight": 40
+            },
+            {
+              "reps": 10,
+              "rest": 0,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "technique": "Bi Set",
+          "sets": [
+            {
+              "reps": 8,
+              "rest": 60,
+              "weight": 40
+            },
+            {
+              "reps": 10,
+              "rest": 0,
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Seated Donkey Calf Raise",
+      "muscle_group": "Calves",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 18,
+              "rest": 60,
+              "weight": 40
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 11,
+              "rest": 60,
+              "weight": 50
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 11,
+              "rest": 60,
+              "weight": 50
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 9,
+              "rest": 60,
+              "weight": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Seated Calf Raise",
+      "muscle_group": "Calves",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 12,
+              "rest": 60,
+              "weight": 20
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 14,
+              "rest": 60,
+              "weight": 20
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 11,
+              "rest": 60,
+              "weight": 25
+            }
+          ]
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "date": "2021-12-07T00:00:00-03:00"
+}

@@ -57,8 +57,8 @@ func (controller ExerciseController) Find(context *gin.Context) {
 // @Accept json
 // @Produce json
 // @Security ApiKeyAuth
-// @Summary Create a new exercise
-// @Param food body request.ExerciseRequest true "Add an exercise"
+// @Summary Create a new exercise tests
+// @Param exercise body request.ExerciseRequest true "Add an exercise"
 // @Success 201 {object} response.ExerciseResponse
 // @Router /exercises [post]
 func (controller ExerciseController) Add(context *gin.Context) {

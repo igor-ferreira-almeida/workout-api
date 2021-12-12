@@ -18,12 +18,12 @@ func MapTrainingRoutes(router *gin.Engine) {
 
 type TrainingController struct{}
 
-// @Tags exercise
+// @Tags training
 // @Accept json
 // @Produce json
 // @Security ApiKeyAuth
-// @Summary Create a new exercise
-// @Param food body request.ExerciseRequest true "Add an exercise"
+// @Summary Create a new training
+// @Param training body request.TrainingRequest true "Add an training"
 // @Success 201 {object} response.TrainingResponse
 // @Router /training [post]
 func (controller TrainingController) Add(context *gin.Context) {
@@ -35,8 +35,12 @@ func (controller TrainingController) Add(context *gin.Context) {
 	}
 
 	// TODO: Tratar erro posteriormente
-	training, err := trainingService.Add(trainingmd.NewTraining(trainingRequest))
+	training, err := trainingmd.NewTraining(trainingRequest)
+	if err != nil {
 
+	}
+
+	training, err = trainingService.Add(training)
 	if err != nil {
 
 	}

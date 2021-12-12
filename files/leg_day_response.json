@@ -1,0 +1,651 @@
+{
+  "muscle_groups": [
+    "Hamstrings",
+    "Glutes",
+    "Quadriceps",
+    "Calves"
+  ],
+  "date": "2021-12-07T00:00:00-03:00",
+  "exercises": [
+    {
+      "name": "Lying Leg Curls",
+      "muscle_group": "Hamstrings",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 30,
+              "rest": 60,
+              "weight": 20,
+              "volume": 600
+            }
+          ],
+          "volume": 600
+        },
+        {
+          "technique": "Drop Set",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 40,
+              "volume": 400
+            },
+            {
+              "reps": 10,
+              "rest": 0,
+              "weight": 30,
+              "volume": 300
+            },
+            {
+              "reps": 10,
+              "rest": 0,
+              "weight": 20,
+              "volume": 200
+            }
+          ],
+          "volume": 900
+        },
+        {
+          "technique": "Drop Set",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 50,
+              "volume": 500
+            },
+            {
+              "reps": 10,
+              "rest": 0,
+              "weight": 40,
+              "volume": 400
+            },
+            {
+              "reps": 10,
+              "rest": 0,
+              "weight": 30,
+              "volume": 300
+            }
+          ],
+          "volume": 1200
+        },
+        {
+          "technique": "Drop Set",
+          "sets": [
+            {
+              "reps": 9,
+              "rest": 60,
+              "weight": 50,
+              "volume": 450
+            },
+            {
+              "reps": 9,
+              "rest": 0,
+              "weight": 40,
+              "volume": 360
+            },
+            {
+              "reps": 9,
+              "rest": 0,
+              "weight": 30,
+              "volume": 270
+            }
+          ],
+          "volume": 1080
+        },
+        {
+          "technique": "Drop Set",
+          "sets": [
+            {
+              "reps": 8,
+              "rest": 60,
+              "weight": 50,
+              "volume": 400
+            },
+            {
+              "reps": 8,
+              "rest": 0,
+              "weight": 40,
+              "volume": 320
+            },
+            {
+              "reps": 9,
+              "rest": 0,
+              "weight": 30,
+              "volume": 270
+            }
+          ],
+          "volume": 990
+        }
+      ],
+      "volume": 4770
+    },
+    {
+      "name": "Romanian Deadlift",
+      "muscle_group": "Hamstrings",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 11,
+              "rest": 60,
+              "weight": 40,
+              "volume": 440
+            }
+          ],
+          "volume": 440
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 40,
+              "volume": 400
+            }
+          ],
+          "volume": 400
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 40,
+              "volume": 400
+            }
+          ],
+          "volume": 400
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 12,
+              "rest": 60,
+              "weight": 40,
+              "volume": 480
+            }
+          ],
+          "volume": 480
+        }
+      ],
+      "volume": 1720
+    },
+    {
+      "name": "Seated Leg Curls",
+      "muscle_group": "Hamstrings",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 18,
+              "rest": 60,
+              "weight": 20,
+              "volume": 360
+            }
+          ],
+          "volume": 360
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 13,
+              "rest": 60,
+              "weight": 25,
+              "volume": 325
+            }
+          ],
+          "volume": 325
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 15,
+              "rest": 60,
+              "weight": 25,
+              "volume": 375
+            }
+          ],
+          "volume": 375
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 9,
+              "rest": 60,
+              "weight": 30,
+              "volume": 270
+            }
+          ],
+          "volume": 270
+        }
+      ],
+      "volume": 1330
+    },
+    {
+      "name": "Twisting Hip Extension",
+      "muscle_group": "Glutes",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 11,
+              "rest": 60,
+              "weight": 12,
+              "volume": 132
+            }
+          ],
+          "volume": 132
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 13,
+              "rest": 60,
+              "weight": 12,
+              "volume": 156
+            }
+          ],
+          "volume": 156
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 20,
+              "volume": 200
+            }
+          ],
+          "volume": 200
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 13,
+              "rest": 60,
+              "weight": 20,
+              "volume": 260
+            }
+          ],
+          "volume": 260
+        }
+      ],
+      "volume": 748
+    },
+    {
+      "name": "Sumo Deadlift",
+      "muscle_group": "Glutes",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 50,
+              "volume": 500
+            }
+          ],
+          "volume": 500
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 11,
+              "rest": 60,
+              "weight": 50,
+              "volume": 550
+            }
+          ],
+          "volume": 550
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 12,
+              "rest": 60,
+              "weight": 50,
+              "volume": 600
+            }
+          ],
+          "volume": 600
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 50,
+              "volume": 500
+            }
+          ],
+          "volume": 500
+        }
+      ],
+      "volume": 2150
+    },
+    {
+      "name": "Bulgarian Split Squat",
+      "muscle_group": "Glutes",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 1,
+              "volume": 10
+            }
+          ],
+          "volume": 10
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 12,
+              "rest": 60,
+              "weight": 10,
+              "volume": 120
+            }
+          ],
+          "volume": 120
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 11,
+              "rest": 60,
+              "weight": 10,
+              "volume": 110
+            }
+          ],
+          "volume": 110
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 11,
+              "rest": 60,
+              "weight": 10,
+              "volume": 110
+            }
+          ],
+          "volume": 110
+        }
+      ],
+      "volume": 350
+    },
+    {
+      "name": "Hip Adduction Machine",
+      "muscle_group": "Glutes",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 25,
+              "rest": 60,
+              "weight": 20,
+              "volume": 500
+            }
+          ],
+          "volume": 500
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 19,
+              "rest": 60,
+              "weight": 30,
+              "volume": 570
+            }
+          ],
+          "volume": 570
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 15,
+              "rest": 60,
+              "weight": 30,
+              "volume": 450
+            }
+          ],
+          "volume": 450
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 11,
+              "rest": 60,
+              "weight": 40,
+              "volume": 440
+            }
+          ],
+          "volume": 440
+        }
+      ],
+      "volume": 1960
+    },
+    {
+      "name": "Standing Calf Press (Smith Machine)",
+      "muscle_group": "Calves",
+      "executions": [
+        {
+          "technique": "Bi Set",
+          "sets": [
+            {
+              "reps": 9,
+              "rest": 60,
+              "weight": 40,
+              "volume": 360
+            },
+            {
+              "reps": 10,
+              "rest": 0,
+              "weight": 1,
+              "volume": 10
+            }
+          ],
+          "volume": 370
+        },
+        {
+          "technique": "Bi Set",
+          "sets": [
+            {
+              "reps": 8,
+              "rest": 60,
+              "weight": 40,
+              "volume": 320
+            },
+            {
+              "reps": 11,
+              "rest": 0,
+              "weight": 1,
+              "volume": 11
+            }
+          ],
+          "volume": 331
+        },
+        {
+          "technique": "Bi Set",
+          "sets": [
+            {
+              "reps": 8,
+              "rest": 60,
+              "weight": 40,
+              "volume": 320
+            },
+            {
+              "reps": 10,
+              "rest": 0,
+              "weight": 1,
+              "volume": 10
+            }
+          ],
+          "volume": 330
+        },
+        {
+          "technique": "Bi Set",
+          "sets": [
+            {
+              "reps": 8,
+              "rest": 60,
+              "weight": 40,
+              "volume": 320
+            },
+            {
+              "reps": 10,
+              "rest": 0,
+              "weight": 1,
+              "volume": 10
+            }
+          ],
+          "volume": 330
+        }
+      ],
+      "volume": 1361
+    },
+    {
+      "name": "Seated Donkey Calf Raise",
+      "muscle_group": "Calves",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 18,
+              "rest": 60,
+              "weight": 40,
+              "volume": 720
+            }
+          ],
+          "volume": 720
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 11,
+              "rest": 60,
+              "weight": 50,
+              "volume": 550
+            }
+          ],
+          "volume": 550
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 11,
+              "rest": 60,
+              "weight": 50,
+              "volume": 550
+            }
+          ],
+          "volume": 550
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 9,
+              "rest": 60,
+              "weight": 60,
+              "volume": 540
+            }
+          ],
+          "volume": 540
+        }
+      ],
+      "volume": 2360
+    },
+    {
+      "name": "Seated Calf Raise",
+      "muscle_group": "Calves",
+      "executions": [
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 12,
+              "rest": 60,
+              "weight": 20,
+              "volume": 240
+            }
+          ],
+          "volume": 240
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 14,
+              "rest": 60,
+              "weight": 20,
+              "volume": 280
+            }
+          ],
+          "volume": 280
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 11,
+              "rest": 60,
+              "weight": 25,
+              "volume": 275
+            }
+          ],
+          "volume": 275
+        },
+        {
+          "technique": "Normal",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": 60,
+              "weight": 25,
+              "volume": 250
+            }
+          ],
+          "volume": 250
+        }
+      ],
+      "volume": 1045
+    }
+  ],
+  "volume_per_muscle_group": {
+    "Calves": 4766,
+    "Glutes": 5208,
+    "Hamstrings": 7820,
+    "Total": 17794
+  }
+}

@@ -1,5 +1,5 @@
 definitions:
-  request.ExerciseRequest:
+  github.com_igor-ferreira-almeida_workout-api_src_api_app_presentation_exercisedto_request.ExerciseRequest:
     properties:
       muscle_group:
         example: Chest
@@ -17,7 +17,7 @@ definitions:
         example: 20
         type: integer
     type: object
-  response.ExerciseResponse:
+  github.com_igor-ferreira-almeida_workout-api_src_api_app_presentation_exercisedto_response.ExerciseResponse:
     properties:
       id:
         type: integer
@@ -32,6 +32,117 @@ definitions:
       weight:
         type: integer
     type: object
+  github.com_igor-ferreira-almeida_workout-api_src_api_app_presentation_trainingdto_request.ExerciseRequest:
+    properties:
+      executions:
+        items:
+          $ref: '#/definitions/request.ExecutionRequest'
+        type: array
+      muscle_group:
+        example: Chest
+        type: string
+      name:
+        example: Bench Press
+        type: string
+    type: object
+  github.com_igor-ferreira-almeida_workout-api_src_api_app_presentation_trainingdto_response.ExerciseResponse:
+    properties:
+      executions:
+        items:
+          $ref: '#/definitions/response.ExecutionResponse'
+        type: array
+      muscle_group:
+        type: string
+      name:
+        type: string
+      volume:
+        type: integer
+    type: object
+  request.ExecutionRequest:
+    properties:
+      sets:
+        items:
+          $ref: '#/definitions/request.SetRequest'
+        type: array
+      technique:
+        example: Normal,Drop Set,Bi Set,Rest Pause
+        type: string
+    type: object
+  request.SetRequest:
+    properties:
+      reps:
+        example: 12
+        type: integer
+      rest:
+        example: 30
+        type: integer
+      weight:
+        example: 20
+        type: integer
+    type: object
+  request.TrainingRequest:
+    properties:
+      date:
+        example: "2021-12-07T00:00:00-03:00"
+        type: string
+      exercises:
+        items:
+          $ref: '#/definitions/github.com_igor-ferreira-almeida_workout-api_src_api_app_presentation_trainingdto_request.ExerciseRequest'
+        type: array
+      muscle_groups:
+        example:
+        - Chest
+        - Back
+        - Deltoids
+        - Biceps
+        - Triceps
+        - Forearms
+        - Quadriceps
+        - Hamstrings
+        - Calves
+        items:
+          type: string
+        type: array
+    type: object
+  response.ExecutionResponse:
+    properties:
+      sets:
+        items:
+          $ref: '#/definitions/response.SetResponse'
+        type: array
+      technique:
+        type: string
+      volume:
+        type: integer
+    type: object
+  response.SetResponse:
+    properties:
+      reps:
+        type: integer
+      rest:
+        type: integer
+      volume:
+        type: integer
+      weight:
+        type: integer
+    type: object
+  response.TrainingResponse:
+    properties:
+      date:
+        type: string
+      exercises:
+        items:
+          $ref: '#/definitions/github.com_igor-ferreira-almeida_workout-api_src_api_app_presentation_trainingdto_response.ExerciseResponse'
+        type: array
+      muscle_groups:
+        items:
+          type: string
+        type: array
+      volume_per_muscle_group:
+        additionalProperties:
+          type: integer
+        type: object
+    type: object
 info:
   contact: {}
 paths:
@@ -42,20 +153,20 @@ paths:
       parameters:
       - description: Add an exercise
         in: body
-        name: food
+        name: exercise
         required: true
         schema:
-          $ref: '#/definitions/request.ExerciseRequest'
+          $ref: '#/definitions/github.com_igor-ferreira-almeida_workout-api_src_api_app_presentation_exercisedto_request.ExerciseRequest'
       produces:
       - application/json
       responses:
         "201":
           description: Created
           schema:
-            $ref: '#/definitions/response.ExerciseResponse'
+            $ref: '#/definitions/github.com_igor-ferreira-almeida_workout-api_src_api_app_presentation_exercisedto_response.ExerciseResponse'
       security:
       - ApiKeyAuth: []
-      summary: Create a new exercise
+      summary: Create a new exercise tests
       tags:
       - exercise
   /exercises/{id}:
@@ -74,10 +185,33 @@ paths:
         "200":
           description: OK
           schema:
-            $ref: '#/definitions/response.ExerciseResponse'
+            $ref: '#/definitions/github.com_igor-ferreira-almeida_workout-api_src_api_app_presentation_exercisedto_response.ExerciseResponse'
       security:
       - ApiKeyAuth: []
       summary: Find exercise by id
       tags:
       - exercise
+  /training:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Add an training
+        in: body
+        name: training
+        required: true
+        schema:
+          $ref: '#/definitions/request.TrainingRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/response.TrainingResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Create a new training
+      tags:
+      - training
 swagger: "2.0"
